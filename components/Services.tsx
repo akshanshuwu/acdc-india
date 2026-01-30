@@ -41,11 +41,6 @@ export const Services: React.FC<ServicesProps> = ({ t }) => {
 const ServiceCard: React.FC<{ service: ServiceCategory; isLarge?: boolean }> = ({ service, isLarge }) => {
   return (
     <div className={`group relative bg-surface hover:bg-white border border-transparent hover:border-gray-200 rounded-2xl p-4 md:p-8 transition-all duration-300 hover:shadow-xl ${isLarge ? 'md:col-span-2 lg:col-span-1' : ''}`}>
-      <div className="absolute top-4 right-4 md:top-8 md:right-8 text-gray-300 group-hover:text-primary transition-colors">
-        <ArrowUpRight size={16} className="md:hidden" />
-        <ArrowUpRight size={24} className="hidden md:block" />
-      </div>
-      
       <div className="w-10 h-10 md:w-14 md:h-14 bg-white rounded-xl shadow-sm flex items-center justify-center text-primary mb-4 md:mb-6 group-hover:scale-110 transition-transform duration-300">
         <div className="scale-75 md:scale-100">
           {iconMap[service.iconName]}
