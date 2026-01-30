@@ -24,20 +24,6 @@ export const About: React.FC<AboutProps> = ({ t }) => {
             <div className="prose prose-lg text-slate-500 mb-8">
               <p className="leading-relaxed">{t.about.description}</p>
             </div>
-
-            <div className="flex items-center gap-4">
-              <div className="flex -space-x-3">
-                 {[1,2,3].map(i => (
-                   <div key={i} className="w-12 h-12 rounded-full border-2 border-white bg-slate-200 overflow-hidden">
-                     <img src={`https://picsum.photos/100/100?random=${i + 10}`} alt="Team" className="w-full h-full object-cover" />
-                   </div>
-                 ))}
-              </div>
-              <div>
-                <p className="font-bold text-slate-900">Meet the Team</p>
-                <p className="text-sm text-slate-500">Certified Experts</p>
-              </div>
-            </div>
           </div>
 
           {/* Right Visual */}

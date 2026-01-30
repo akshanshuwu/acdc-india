@@ -6,9 +6,10 @@ interface HeaderProps {
   lang: Language;
   setLang: (lang: Language) => void;
   t: Translation;
+  onSignupClick?: () => void;
 }
 
-export const Header: React.FC<HeaderProps> = ({ lang, setLang, t }) => {
+export const Header: React.FC<HeaderProps> = ({ lang, setLang, t, onSignupClick }) => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 

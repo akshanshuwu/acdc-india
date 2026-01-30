@@ -16,11 +16,6 @@ export const Hero: React.FC<HeroProps> = ({ t }) => {
       
       <div className="container mx-auto px-4 md:px-6 relative">
         <div className="max-w-4xl mx-auto text-center">
-          <div className="inline-flex items-center gap-2 bg-white border border-gray-200 rounded-full px-4 py-1.5 mb-8 shadow-sm animate-fade-in">
-            <span className="flex h-2 w-2 rounded-full bg-green-500"></span>
-            <span className="text-xs md:text-sm font-semibold text-gray-700 tracking-wide uppercase">Open 9:00 AM - 9:00 PM</span>
-          </div>
-          
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-900 tracking-tight mb-6 leading-[1.1]">
             {t.hero.title}
           </h1>

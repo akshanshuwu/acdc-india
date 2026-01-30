@@ -110,7 +110,7 @@ export const TRANSLATIONS: Record<'en' | 'hi', Translation> = {
     contact: {
       title: "Visit Our Store",
       address: "Shop No. 12, Main Market Road, Indrapuri, Bhopal, MP 462021",
-      phone: "+91 98765 43210",
+      phone: "+91 70897 86533",
       email: "support@acdcindia.com",
       cta_whatsapp: "Chat on WhatsApp",
       form_title: "Send a Message",
@@ -243,6 +243,6 @@ export const TRANSLATIONS: Record<'en' | 'hi', Translation> = {
 };
 
 export const CONTACT_INFO = {
-  phone: "919876543210",
-  mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117305.28257864453!2d77.33777000851893!3d23.25479440628373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c428f8fd68fbd%3A0x2155716d572d4f8!2sBhopal%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1715629402501!5m2!1sen!2sin"
+  phone: "917089786533",
+  mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3666.155842891234!2d77.47808!3d23.21977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c4139ece1a32d%3A0x62e7e203039b8c78!2sACDC%20INDIA%20SERVICES%20AND%20TRADERS!5e0!3m2!1sen!2sin!4v1706000000000!5m2!1sen!2sin"
 };

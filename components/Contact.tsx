@@ -64,8 +64,8 @@ export const Contact: React.FC<ContactProps> = ({ t }) => {
                    </div>
                    <div>
                      <p className="font-medium text-white/90">Hours</p>
-                     <p className="text-white/70 text-sm mt-1">Mon - Sat: 9:00 AM - 9:00 PM</p>
-                     <p className="text-white/70 text-sm">Sun: Closed</p>
+                     <p className="text-white/70 text-sm mt-1">Mon - Sat: 11:00 AM - 11:00 PM</p>
+                     <p className="text-white/70 text-sm">Sun: 5:00 PM - 11:00 PM</p>
                    </div>
                  </div>
                </div>
